@@ -1,0 +1,11 @@
+framework module FlatButton {
+  umbrella header "FlatButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FlatButton.Swift {
+    header "FlatButton-Swift.h"
+    requires objc
+}
